@@ -1,0 +1,12 @@
+{
+    "name": "rav",
+    "version": "1.0.0",
+    "description": "Projeto RAV",
+    "main": "index.js",
+    "scripts": {
+      "start": "live-server public"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {}
+  }

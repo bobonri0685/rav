@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="reports-container">
+        <h2>Relatórios</h2>
+        <form id="reportForm">
+            <div class="form-group">
+                <label for="reportType">Tipo de Relatório</label>
+                <select id="reportType" name="reportType">
+                    <option value="individual">Individual</option>
+                    <option value="turma">Por Turma</option>
+                </select>
+            </div>
+            <button type="submit">Gerar Relatório</button>
+        </form>
+        <div id="reportResult"></div>
+    </div>
+</body>
+</html>
