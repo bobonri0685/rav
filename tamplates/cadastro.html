@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro e Gestão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="management-container">
+        <h2>Cadastro e Gestão</h2>
+        <div class="management-tabs">
+            <button data-target="#alunos">Alunos</button>
+            <button data-target="#disciplinas">Disciplinas</button>
+            <button data-target="#habilidades">Habilidades</button>
+            <button data-target="#objetivos">Objetivos</button>
+            <button data-target="#conteudos">Conteúdos</button>
+            <button data-target="#proficiencia">Níveis de Proficiência</button>
+        </div>
+        <div id="managementContent">
+            <div id="alunos" class="management-section active">
+                <h3>Alunos</h3>
+                <form id="formCadastro" aria-label="Formulário de Cadastro de Alunos">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" placeholder="Digite o nome" aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Idade:</label>
+                        <input type="number" id="age" name="age" placeholder="Digite a idade" aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="class">Turma:</label>
+                        <input type="text" id="class" name="class" placeholder="Digite a turma" aria-required="true">
+                    </div>
+                    <button type="submit">Cadastrar</button>
+                </form>
+                <div id="studentList">
+                    <h3>Lista de Alunos</h3>
+                    <ul id="students"></ul>
+                </div>
+            </div>
+            <div id="disciplinas" class="management-section">
+                <h3>Disciplinas</h3>
+                <!-- CRUD de Disciplinas -->
+            </div>
+            <div id="habilidades" class="management-section">
+                <h3>Habilidades</h3>
+                <!-- CRUD de Habilidades -->
+            </div>
+            <div id="objetivos" class="management-section">
+                <h3>Objetivos</h3>
+                <!-- CRUD de Objetivos -->
+            </div>
+            <div id="conteudos" class="management-section">
+                <h3>Conteúdos</h3>
+                <!-- CRUD de Conteúdos -->
+            </div>
+            <div id="proficiencia" class="management-section">
+                <h3>Níveis de Proficiência</h3>
+                <!-- CRUD de Níveis de Proficiência -->
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

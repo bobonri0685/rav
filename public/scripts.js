@@ -1,41 +1,106 @@
+// scripts.js
+
 document.addEventListener('DOMContentLoaded', function() {
-    const classList = document.querySelector('.class-list');
+    const formAvaliacao = document.getElementById('formAvaliacao');
+    const evaluationList = document.getElementById('evaluations');
 
-    // Exemplo de dados. Em um cenário real, você buscaria isso de uma API.
-    const classes = [
-        {
-            name: 'Turma A',
-            students: ['Aluno 1', 'Aluno 2', 'Aluno 3']
-        },
-        {
-            name: 'Turma B',
-            students: ['Aluno 4', 'Aluno 5', 'Aluno 6']
+    formAvaliacao.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const studentName = document.getElementById('studentName').value;
+        const subject = document.getElementById('subject').value;
+        const grade = document.getElementById('grade').value;
+
+        if (validateEvaluationForm(studentName, subject, grade)) {
+            const evaluation = {
+                studentName,
+                subject,
+                grade
+            };
+
+            addEvaluationToList(evaluation);
+            clearEvaluationForm();
         }
-        // Adicione mais turmas e alunos aqui
-    ];
+    });
 
-    // Função para criar os elementos da turma e dos alunos
-    function renderClasses() {
-        classes.forEach(classData => {
-            const classItem = document.createElement('li');
-            classItem.classList.add('class-item');
-
-            const classTitle = document.createElement('h3');
-            classTitle.textContent = classData.name;
-            classItem.appendChild(classTitle);
-
-            const studentList = document.createElement('ul');
-            studentList.classList.add('student-list');
-            classData.students.forEach(student => {
-                const studentItem = document.createElement('li');
-                studentItem.textContent = student;
-                studentList.appendChild(studentItem);
-            });
-
-            classItem.appendChild(studentList);
-            classList.appendChild(classItem);
-        });
+    function validateEvaluationForm(studentName, subject, grade) {
+        if (!studentName) {
+            alert('Por favor, preencha o nome do estudante.');
+            return false;
+        }
+        if (!subject) {
+            alert('Por favor, preencha a disciplina.');
+            return false;
+        }
+        if (!grade || isNaN(grade) || grade < 0 || grade > 10) {
+            alert('Por favor, preencha a nota com um número válido entre 0 e 10.');
+            return false;
+        }
+        return true;
     }
 
-    renderClasses();
+    function addEvaluationToList(evaluation) {
+        const li = document.createElement('li');
+        li.textContent = `Nome: ${evaluation.studentName}, Disciplina: ${evaluation.subject}, Nota: ${evaluation.grade}`;
+        evaluationList.appendChild(li);
+    }
+
+    function clearEvaluationForm() {
+        document.getElementById('studentName').value = '';
+        document.getElementById('subject').value = '';
+        document.getElementById('grade').value = '';
+    }
+});
+// scripts.js
+
+document.addEventListener('DOMContentLoaded', function() {
+    const formCadastro = document.getElementById('formCadastro');
+    const studentList = document.getElementById('students');
+
+    formCadastro.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const age = document.getElementById('age').value;
+        const className = document.getElementById('class').value;
+
+        if (validateStudentForm(name, age, className)) {
+            const student = {
+                name,
+                age,
+                className
+            };
+
+            addStudentToList(student);
+            clearForm();
+        }
+    });
+
+    function validateStudentForm(name, age, className) {
+        if (!name) {
+            alert('Por favor, preencha o nome do estudante.');
+            return false;
+        }
+        if (!age || isNaN(age) || age <= 0) {
+            alert('Por favor, preencha a idade do estudante com um número válido.');
+            return false;
+        }
+        if (!className) {
+            alert('Por favor, preencha a turma do estudante.');
+            return false;
+        }
+        return true;
+    }
+
+    function addStudentToList(student) {
+        const li = document.createElement('li');
+        li.textContent = `Nome: ${student.name}, Idade: ${student.age}, Turma: ${student.className}`;
+        studentList.appendChild(li);
+    }
+
+    function clearForm() {
+        document.getElementById('name').value = '';
+        document.getElementById('age').value = '';
+        document.getElementById('class').value = '';
+    }
 });
