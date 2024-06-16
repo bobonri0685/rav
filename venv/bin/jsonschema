@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/projetoRAv/venv/bin/python3.12" "$0" "$@"
+'''exec' "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/bin/python3.12" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re

@@ -5,6 +5,7 @@ from flask_bcrypt import Bcrypt
 from flask_wtf.csrf import CSRFProtect
 from flask_restx import Api, Resource, fields
 from marshmallow import Schema, fields as ma_fields, validate, ValidationError
+from flask_migrate import Migrate
 
 app = Flask(__name__)
 
@@ -19,8 +20,10 @@ csrf = CSRFProtect(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login'
-api = Api(app, version='1.0', title='API de Relatório Avaliativo',
-          description='Documentação da API de Relatório Avaliativo')
+api = Api(app, version='1.0', title='API de Relatório Avaliativo', description='Documentação da API de Relatório Avaliativo')
+
+# Configuração do Flask-Migrate
+migrate = Migrate(app, db)
 
 # Modelos
 class Aluno(db.Model):
@@ -138,7 +141,7 @@ class AlunoResource(Resource):
             return {'message': 'Aluno não encontrado!'}, 404
         except ValidationError as err:
             return {'message': str(err)}, 400
-        
+
     @login_required
     @api.response(204, 'Aluno deletado')
     @api.response(404, 'Aluno não encontrado')
