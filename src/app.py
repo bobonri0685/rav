@@ -6,8 +6,11 @@ from flask_wtf.csrf import CSRFProtect
 from flask_restx import Api, Resource, fields
 from marshmallow import Schema, fields as ma_fields, validate, ValidationError
 from flask_migrate import Migrate
+import os
 
-app = Flask(__name__)
+# Configuração do Flask para encontrar a pasta templates na raiz
+template_dir = os.path.abspath('templates')
+app = Flask(__name__, template_folder=template_dir)
 
 # Configuração do banco de dados PostgreSQL
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://diogomendesbatista:onri0685@localhost/relatorio_avaliativo_db'
@@ -20,7 +23,8 @@ csrf = CSRFProtect(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login'
-api = Api(app, version='1.0', title='API de Relatório Avaliativo', description='Documentação da API de Relatório Avaliativo')
+
+api = Api(app, version='1.0', title='API de Relatório Avaliativo', description='Documentação da API de Relatório Avaliativo', doc='/api/docs')
 
 # Configuração do Flask-Migrate
 migrate = Migrate(app, db)
@@ -157,6 +161,10 @@ class AlunoResource(Resource):
 def not_found(error):
     return jsonify({'error': 'Not found'}), 404
 
+@app.errorhandler(403)
+def forbidden(error):
+    return jsonify({'error': 'Forbidden'}), 403
+
 @app.errorhandler(500)
 def internal_error(error):
     return jsonify({'error': 'Internal server error'}), 500
@@ -165,6 +173,15 @@ def internal_error(error):
 @login_required
 def protected():
     return jsonify({'message': 'This is a protected route'}), 200
+
+# Adicionando rotas para renderizar templates HTML
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+@app.route('/another_page')
+def another_page():
+    return render_template('another_page.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
