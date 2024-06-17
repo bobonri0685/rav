@@ -5,33 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RAv - Relatório Avaliativo</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f8f9fa;
-        }
-        .navbar {
-            width: 100%;
-        }
-        .content {
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">RAv</a>
-        <form class="form-inline">
-            <a class="btn btn-outline-success my-2 my-sm-0" href="/login">Login</a>
-        </form>
+        <a class="navbar-brand" href="#">SEEDF - Relatório Avaliativo (RAv)</a>
+        <div class="ml-auto"> 
+            <form class="form-inline" method="POST" action="/login">
+                <input class="form-control mr-sm-2" type="text" placeholder="Nome de usuário" name="username" required>
+                <input class="form-control mr-sm-2" type="password" placeholder="Senha" name="password" required>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Entrar</button>
+            </form>
+        </div>
     </nav>
-    <div class="content">
-        <h1>Bem-vindo ao RAv - Relatório Avaliativo</h1>
-        <p>Esta é a página de apresentação do projeto RAv.</p>
+
+    <div class="container mt-5">
+        <div class="content text-center">
+            <h1>Bem-vindo ao RAv - Relatório Avaliativo</h1>
+            <p>Esta é a página de apresentação do projeto RAv.</p>
+        </div>
     </div>
 </body>
 </html>

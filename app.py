@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template, redirect, url_for
+from flask import Flask, request, jsonify, render_template, redirect, url_for, send_from_directory
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from flask_bcrypt import Bcrypt
@@ -10,20 +10,17 @@ import os
 import logging
 
 # Configuração do logging
-from logging_config import setup_logging
+from src.logging_config import setup_logging
 setup_logging()
 
 logger = logging.getLogger(__name__)
 
-# Configuração do Flask para encontrar a pasta templates
-template_dir = '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/templates'
-app = Flask(__name__, template_folder=template_dir)
-logger.info(f'Template folder set to: {template_dir}')
-
-# Configuração do banco de dados PostgreSQL
+# Criação da aplicação Flask
+app = Flask(__name__, template_folder='src/templates', static_folder='src/static')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://diogomendesbatista:onri0685@localhost/relatorio_avaliativo_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SECRET_KEY'] = 'secret_key'
+# Armazene a chave secreta em uma variável de ambiente
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'sua_chave_secreta_padrao') 
 
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
@@ -32,9 +29,9 @@ login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login'
 
-api = Api(app, version='1.0', title='API de Relatório Avaliativo', description='Documentação da API de Relatório Avaliativo', doc='/api/docs')
+api = Api(app, version='1.0', title='API de Relatório Avaliativo', 
+          description='Documentação da API de Relatório Avaliativo', doc='/api/docs')
 
-# Configuração do Flask-Migrate
 migrate = Migrate(app, db)
 
 # Modelos
@@ -80,6 +77,11 @@ user_model = api.model('User', {
 def load_user(user_id):
     return db.session.get(User, int(user_id))
 
+# Adicionando rotas para renderizar templates HTML
+@app.route('/index')
+def index():
+    return render_template('index.html')
+    
 @api.route('/login')
 class Login(Resource):
     @api.expect(user_model, validate=True)
@@ -90,11 +92,15 @@ class Login(Resource):
         user = User.query.filter_by(username=data['username']).first()
         if user and user.verify_password(data['password']):
             login_user(user)
-            token = 'dummy_token'  # Simule a criação de um token
+            token = 'dummy_token' 
             logger.info(f'Usuário {user.username} logado com sucesso.')
             return {'token': token}, 200
         logger.warning('Tentativa de login com credenciais inválidas.')
         return {'message': 'Invalid credentials'}, 401
+
+
+    def get(self):  # Adiciona o método GET para exibir o formulário
+        return render_template('index.html') 
 
 @api.route('/logout')
 class Logout(Resource):
@@ -199,16 +205,7 @@ def protected():
     logger.debug(f'Usuário {current_user.username} acessou a rota protegida.')
     return jsonify({'message': 'This is a protected route'}), 200
 
-# Adicionando rotas para renderizar templates HTML
-@app.route('/')
-def index():
-    logger.info('Página inicial acessada.')
-    try:
-        return render_template('index.html')
-    except Exception as e:
-        logger.error(f'Erro ao renderizar template: {e}')
-        return jsonify({'error': 'Erro ao renderizar template'}), 500
-
 if __name__ == '__main__':
     logger.info('Iniciando a aplicação Flask.')
     app.run(debug=True)
+
