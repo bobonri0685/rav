@@ -7,10 +7,18 @@ from flask_restx import Api, Resource, fields
 from marshmallow import Schema, fields as ma_fields, validate, ValidationError
 from flask_migrate import Migrate
 import os
+import logging
 
-# Configuração do Flask para encontrar a pasta templates na raiz
-template_dir = os.path.abspath('templates')
+# Configuração do logging
+from logging_config import setup_logging
+setup_logging()
+
+logger = logging.getLogger(__name__)
+
+# Configuração do Flask para encontrar a pasta templates
+template_dir = '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/templates'
 app = Flask(__name__, template_folder=template_dir)
+logger.info(f'Template folder set to: {template_dir}')
 
 # Configuração do banco de dados PostgreSQL
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://diogomendesbatista:onri0685@localhost/relatorio_avaliativo_db'
@@ -83,7 +91,9 @@ class Login(Resource):
         if user and user.verify_password(data['password']):
             login_user(user)
             token = 'dummy_token'  # Simule a criação de um token
+            logger.info(f'Usuário {user.username} logado com sucesso.')
             return {'token': token}, 200
+        logger.warning('Tentativa de login com credenciais inválidas.')
         return {'message': 'Invalid credentials'}, 401
 
 @api.route('/logout')
@@ -91,6 +101,7 @@ class Logout(Resource):
     @login_required
     def get(self):
         logout_user()
+        logger.info(f'Usuário {current_user.username} deslogado com sucesso.')
         return {'message': 'Logout successful'}, 200
 
 @api.route('/alunos')
@@ -99,6 +110,7 @@ class AlunoList(Resource):
     @api.marshal_list_with(aluno_model)
     def get(self):
         alunos = Aluno.query.all()
+        logger.debug(f'{len(alunos)} alunos encontrados.')
         return alunos
 
     @login_required
@@ -112,8 +124,10 @@ class AlunoList(Resource):
             novo_aluno = Aluno(nome=data['nome'])
             db.session.add(novo_aluno)
             db.session.commit()
+            logger.info(f'Aluno {data["nome"]} adicionado com sucesso.')
             return {'message': 'Aluno adicionado!'}, 201
         except ValidationError as err:
+            logger.error(f'Erro de validação ao adicionar aluno: {err}')
             return {'message': str(err)}, 400
 
 @api.route('/alunos/<int:id>')
@@ -125,7 +139,9 @@ class AlunoResource(Resource):
     def get(self, id):
         aluno = db.session.get(Aluno, id)
         if aluno:
+            logger.debug(f'Aluno encontrado: {aluno.nome}')
             return aluno, 200
+        logger.warning(f'Aluno com ID {id} não encontrado.')
         return {'message': 'Aluno não encontrado'}, 404
 
     @login_required
@@ -141,9 +157,12 @@ class AlunoResource(Resource):
                 aluno_schema.load(data)  # Validação dos dados
                 aluno.nome = data['nome']
                 db.session.commit()
+                logger.info(f'Aluno {id} atualizado com sucesso.')
                 return {'message': 'Aluno atualizado!'}, 200
+            logger.warning(f'Aluno com ID {id} não encontrado.')
             return {'message': 'Aluno não encontrado!'}, 404
         except ValidationError as err:
+            logger.error(f'Erro de validação ao atualizar aluno: {err}')
             return {'message': str(err)}, 400
 
     @login_required
@@ -154,34 +173,42 @@ class AlunoResource(Resource):
         if aluno:
             db.session.delete(aluno)
             db.session.commit()
+            logger.info(f'Aluno {id} deletado com sucesso.')
             return '', 204
+        logger.warning(f'Aluno com ID {id} não encontrado.')
         return {'message': 'Aluno não encontrado!'}, 404
 
 @app.errorhandler(404)
 def not_found(error):
+    logger.error('Erro 404: Página não encontrada.')
     return jsonify({'error': 'Not found'}), 404
 
 @app.errorhandler(403)
 def forbidden(error):
+    logger.error('Erro 403: Acesso proibido.')
     return jsonify({'error': 'Forbidden'}), 403
 
 @app.errorhandler(500)
 def internal_error(error):
+    logger.error('Erro 500: Erro interno do servidor.', exc_info=True)
     return jsonify({'error': 'Internal server error'}), 500
 
 @app.route('/protected')
 @login_required
 def protected():
+    logger.debug(f'Usuário {current_user.username} acessou a rota protegida.')
     return jsonify({'message': 'This is a protected route'}), 200
 
 # Adicionando rotas para renderizar templates HTML
 @app.route('/')
-def home():
-    return render_template('index.html')
-
-@app.route('/another_page')
-def another_page():
-    return render_template('another_page.html')
+def index():
+    logger.info('Página inicial acessada.')
+    try:
+        return render_template('index.html')
+    except Exception as e:
+        logger.error(f'Erro ao renderizar template: {e}')
+        return jsonify({'error': 'Erro ao renderizar template'}), 500
 
 if __name__ == '__main__':
+    logger.info('Iniciando a aplicação Flask.')
     app.run(debug=True)

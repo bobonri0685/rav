@@ -1,0 +1,81 @@
+2024-06-16 22:21:40,240 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-16 22:21:40,286 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-16 22:21:40,286 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-16 22:21:40,296 - werkzeug - INFO -  * Restarting with stat
+2024-06-16 22:21:43,039 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-16 22:21:43,047 - werkzeug - WARNING -  * Debugger is active!
+2024-06-16 22:21:43,081 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-16 22:21:52,217 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:21:52,233 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:21:52] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-16 22:21:55,602 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:21:55,604 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:21:55] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-16 22:21:56,261 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:21:56,262 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:21:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-16 22:23:00,669 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:23:00,669 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:23:00] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-16 22:23:01,754 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:23:01,755 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:23:01] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-16 22:29:53,161 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/app.py', reloading
+2024-06-16 22:29:53,800 - werkzeug - INFO -  * Restarting with stat
+2024-06-16 22:29:57,541 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-16 22:29:57,551 - werkzeug - WARNING -  * Debugger is active!
+2024-06-16 22:29:57,573 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-16 22:29:57,633 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:29:57,635 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:29:57] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-16 22:30:11,712 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:30:11,713 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:30:11] "[33mGET /index.html HTTP/1.1[0m" 404 -
+2024-06-16 22:30:21,631 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:30:21,632 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:30:21] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-16 22:30:22,032 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:30:22,034 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:30:22] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-16 22:34:32,278 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/app.py', reloading
+2024-06-16 22:34:33,115 - werkzeug - INFO -  * Restarting with stat
+2024-06-16 22:34:36,193 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-16 22:34:36,209 - werkzeug - WARNING -  * Debugger is active!
+2024-06-16 22:34:36,228 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-16 22:34:41,369 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:34:41,371 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:34:41] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-16 22:41:38,163 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/app.py', reloading
+2024-06-16 22:41:38,635 - werkzeug - INFO -  * Restarting with stat
+2024-06-16 22:41:41,446 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-16 22:41:41,462 - werkzeug - WARNING -  * Debugger is active!
+2024-06-16 22:41:41,498 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-16 22:42:01,854 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-16 22:42:01,868 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-16 22:42:01,868 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-16 22:42:01,870 - werkzeug - INFO -  * Restarting with stat
+2024-06-16 22:42:03,283 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-16 22:42:03,288 - werkzeug - WARNING -  * Debugger is active!
+2024-06-16 22:42:03,310 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-16 22:42:12,624 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:42:12,626 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:42:12] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-16 22:42:13,640 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:42:13,642 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:42:13] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-16 22:55:06,955 - __main__ - INFO - Template folder set to: /Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/templates
+2024-06-16 22:55:07,116 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-16 22:55:07,137 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-16 22:55:07,137 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-16 22:55:07,139 - werkzeug - INFO -  * Restarting with stat
+2024-06-16 22:55:09,380 - __main__ - INFO - Template folder set to: /Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/templates
+2024-06-16 22:55:09,492 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-16 22:55:09,501 - werkzeug - WARNING -  * Debugger is active!
+2024-06-16 22:55:09,521 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-16 22:55:13,424 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:55:13,432 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:55:13] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-16 22:55:14,684 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 22:55:14,685 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 22:55:14] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-16 23:00:38,264 - __main__ - INFO - Template folder set to: /Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/templates
+2024-06-16 23:00:38,456 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-16 23:00:38,489 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-16 23:00:38,490 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-16 23:00:38,492 - werkzeug - INFO -  * Restarting with stat
+2024-06-16 23:00:41,336 - __main__ - INFO - Template folder set to: /Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/templates
+2024-06-16 23:00:41,873 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-16 23:00:41,961 - werkzeug - WARNING -  * Debugger is active!
+2024-06-16 23:00:42,009 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-16 23:00:43,352 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-16 23:00:43,354 - werkzeug - INFO - 127.0.0.1 - - [16/Jun/2024 23:00:43] "[33mGET / HTTP/1.1[0m" 404 -
