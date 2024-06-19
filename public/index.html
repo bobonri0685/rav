@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RAv - Relatório Avaliativo</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <div class="ml-auto"> 
+                <form class="form-inline" method="POST" action="/login">
+                    {{ form.hidden_tag() }} <div class="ml-auto">
+                    {{ form.username(class_="form-control mr-sm-2", placeholder="Nome de usuário", required=True) }}
+                    {{ form.password(class_="form-control mr-sm-2", placeholder="Senha", required=True) }}
+                    {{ form.submit(class_="btn btn-outline-success my-2 my-sm-0") }}
+                </form>
+            </div>
+        </nav>
+        
+        <div class="container mt-5">
+            <div class="content text-center">
+                <h1>Bem-vindo ao RAv - Relatório Avaliativo</h1>
+                <p>Esta é a página de apresentação do projeto RAv.</p>
+            </div>
+        </div>
+    </body>
+</html>

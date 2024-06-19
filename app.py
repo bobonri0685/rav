@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.exc import IntegrityError
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from flask_bcrypt import Bcrypt
-from flask_wtf.csrf import CSRFProtect, CSRFError  # Importa CSRFError
+from flask_wtf.csrf import CSRFProtect, CSRFError
 from flask_restx import Api, Resource, fields
 from marshmallow import Schema, fields as ma_fields, validate, ValidationError
 from flask_migrate import Migrate
@@ -27,7 +27,7 @@ bcrypt = Bcrypt(app)
 csrf = CSRFProtect(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
-login_manager.login_view = 'index' 
+login_manager.login_view = 'index'
 
 api = Api(app, version='1.0', title='API de Relatório Avaliativo', 
           description='Documentação da API de Relatório Avaliativo', doc='/api/docs')
@@ -62,7 +62,7 @@ class User(UserMixin, db.Model):
 class AlunoSchema(Schema):
     nome = ma_fields.String(required=True, validate=validate.Length(min=1))
     idade = ma_fields.Integer(required=True, validate=validate.Range(min=1))
-    serie = ma_fields.String(required=True, validate=validate.Length(min=1))  
+    serie = ma_fields.String(required=True, validate=validate.Length(min=1))
 
 aluno_schema = AlunoSchema()
 
@@ -93,7 +93,7 @@ def serve_public(filename):
 def index():
     form = LoginForm()  # Crie uma instância do formulário
     return render_template('index.html', form=form)  # Passe o formulário para o template
-    
+
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -111,12 +111,17 @@ def login():
     else:
         return render_template('index.html', form=form)
 
-   
+
 # Rota do Dashboard (protegida)
 @app.route('/dashboard')
 @login_required
 def dashboard():
-    return render_template('dashboard.html')
+    return send_from_directory('build', 'index.html')
+
+# Servindo arquivos estáticos do build do React
+@app.route('/static/<path:filename>')
+def serve_static(filename):
+    return send_from_directory('build/static', filename)
 
 @api.route('/logout')
 class Logout(Resource):
@@ -169,7 +174,7 @@ class AlunoResource(Resource):
                 logger.warning(f'Aluno não encontrado (ID: {id})')
                 return {'message': 'Aluno não encontrado'}, 404
         except Exception as e:
-            logger.error(f'Erro ao buscar aluno (ID: {id}): {e}', exc_info=True)  
+            logger.error(f'Erro ao buscar aluno (ID: {id}): {e}', exc_info=True)
             return {'message': 'Erro interno do servidor'}, 500
 
     @login_required
@@ -231,7 +236,7 @@ def handle_error(error):
     else:
         return jsonify({'error': 'Internal Server Error'}), 500
 
-    
+
 @app.route('/protected')
 @login_required
 def protected():
