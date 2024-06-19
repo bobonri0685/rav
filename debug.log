@@ -283,3 +283,407 @@
 2024-06-17 00:46:25,308 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2024 00:46:25] "GET /static/styles.css HTTP/1.1" 200 -
 2024-06-17 00:47:25,569 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2024 00:47:25] "GET /index HTTP/1.1" 200 -
 2024-06-17 00:47:25,646 - werkzeug - INFO - 127.0.0.1 - - [17/Jun/2024 00:47:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-18 20:02:29,963 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 20:02:29,997 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 20:02:29,997 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 20:02:29,999 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 20:02:31,651 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 20:02:31,690 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 20:02:31,753 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 20:02:34,506 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-18 20:02:34,516 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:02:34] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-18 20:02:37,994 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-18 20:02:37,999 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:02:37] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-18 20:02:38,813 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-18 20:02:38,834 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:02:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-18 20:04:58,057 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:04:58] "GET /index HTTP/1.1" 200 -
+2024-06-18 20:04:58,192 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:04:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-18 20:07:28,071 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-18 20:07:28,074 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:07:28] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2024-06-18 20:10:15,903 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-18 20:10:15,906 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:10:15] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2024-06-18 20:10:16,293 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-18 20:10:16,294 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:10:16] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2024-06-18 20:10:17,472 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-18 20:10:17,474 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:10:17] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2024-06-18 20:16:16,231 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 20:16:16,763 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 20:16:19,362 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 20:16:19,382 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 20:16:19,417 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 20:16:54,326 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 20:16:54,646 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 20:16:58,165 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 20:16:58,183 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 20:16:58,216 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 20:17:13,687 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 20:17:13,851 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 20:17:13,854 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 20:17:13,867 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 20:17:15,748 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 20:17:15,759 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 20:17:15,804 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 20:17:18,768 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:17:18] "GET /index HTTP/1.1" 200 -
+2024-06-18 20:17:18,904 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:17:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-18 20:17:19,276 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:17:19] "GET /index HTTP/1.1" 200 -
+2024-06-18 20:17:19,319 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:17:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-18 20:17:29,827 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:17:29] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-06-18 20:17:29,846 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 20:17:29] "GET /login?next=/dashboard HTTP/1.1" 200 -
+2024-06-18 21:02:45,342 - __main__ - INFO - Usuário admin criado com sucesso.
+2024-06-18 21:02:45,348 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 21:02:45,392 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 21:02:45,392 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 21:02:45,394 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 21:02:49,465 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 21:02:49,496 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 21:02:49,511 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 21:02:49,651 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 21:02:54,631 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:02:54] "GET /index HTTP/1.1" 200 -
+2024-06-18 21:03:00,215 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:03:00] "GET /index HTTP/1.1" 200 -
+2024-06-18 21:04:23,001 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-18 21:04:23,019 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:04:23] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-18 21:04:44,387 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:04:44] "GET /index HTTP/1.1" 200 -
+2024-06-18 21:28:00,045 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 21:28:00,064 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 21:28:00,085 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 21:28:00,085 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 21:28:00,089 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 21:28:02,666 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 21:28:02,667 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 21:28:02,676 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 21:28:02,695 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 21:28:07,543 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:28:07] "GET /index HTTP/1.1" 200 -
+2024-06-18 21:28:17,893 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-18 21:28:17,896 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:28:17] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-18 21:28:26,651 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:28:26] "GET /index HTTP/1.1" 200 -
+2024-06-18 21:33:30,145 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 21:33:30,693 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 21:33:33,629 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 21:33:33,630 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 21:33:33,651 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 21:33:33,668 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 21:33:49,324 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 21:33:50,755 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 21:34:01,282 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 21:34:01,283 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 21:34:01,305 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 21:34:01,306 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 21:34:01,311 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 21:34:03,182 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 21:34:03,185 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 21:34:03,192 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 21:34:03,232 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 21:34:09,098 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:34:09] "GET /index HTTP/1.1" 200 -
+2024-06-18 21:34:10,866 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:34:10] "GET /index HTTP/1.1" 200 -
+2024-06-18 21:37:28,250 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 21:37:28,951 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 21:37:31,989 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 21:37:31,996 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 21:37:32,009 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 21:37:32,030 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 21:37:43,461 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 21:37:44,121 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 21:49:51,570 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 21:49:51,572 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 21:49:51,588 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 21:49:51,588 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 21:49:51,591 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 21:49:52,794 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 21:49:52,795 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 21:49:52,800 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 21:49:52,816 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 21:49:57,376 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:49:57] "GET /index HTTP/1.1" 200 -
+2024-06-18 21:52:07,546 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:52:07] "GET /index HTTP/1.1" 200 -
+2024-06-18 21:52:52,355 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-18 21:52:52,358 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:52:52] "[33mGET /api/alunos HTTP/1.1[0m" 404 -
+2024-06-18 21:53:34,648 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 21:53:34] "GET /index HTTP/1.1" 200 -
+2024-06-18 22:07:05,168 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:07:05,170 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:07:05,215 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 22:07:05,216 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 22:07:05,219 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 22:07:06,560 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:07:06,562 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:07:06,571 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 22:07:06,594 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 22:07:09,518 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:07:09] "GET /index HTTP/1.1" 200 -
+2024-06-18 22:07:09,686 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:07:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-18 22:07:17,643 - flask_wtf.csrf - INFO - The CSRF token is missing.
+2024-06-18 22:07:17,644 - __main__ - ERROR - Erro inesperado: 400 Bad Request: The CSRF token is missing.
+Traceback (most recent call last):
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_wtf/csrf.py", line 261, in protect
+    validate_csrf(self._get_csrf_token())
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_wtf/csrf.py", line 100, in validate_csrf
+    raise ValidationError("The CSRF token is missing.")
+wtforms.validators.ValidationError: The CSRF token is missing.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 878, in full_dispatch_request
+    rv = self.preprocess_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 1253, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_wtf/csrf.py", line 229, in csrf_protect
+    self.protect()
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_wtf/csrf.py", line 264, in protect
+    self._error_response(e.args[0])
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_wtf/csrf.py", line 307, in _error_response
+    raise CSRFError(reason)
+flask_wtf.csrf.CSRFError: 400 Bad Request: The CSRF token is missing.
+2024-06-18 22:07:17,654 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:07:17] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-06-18 22:23:21,737 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:23:21,743 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:23:21,833 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 22:23:21,833 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 22:23:21,842 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 22:23:23,500 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:23:23,502 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:23:23,507 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 22:23:23,528 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 22:23:41,686 - __main__ - ERROR - Erro inesperado: 'form' is undefined
+Traceback (most recent call last):
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py", line 93, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/templates/index.html", line 15, in top-level template code
+    {{ form.csrf_token() }} <div class="ml-auto">
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2024-06-18 22:23:41,697 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:23:41] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2024-06-18 22:23:42,510 - __main__ - ERROR - Erro inesperado: 'form' is undefined
+Traceback (most recent call last):
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py", line 93, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/templates/index.html", line 15, in top-level template code
+    {{ form.csrf_token() }} <div class="ml-auto">
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2024-06-18 22:23:42,516 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:23:42] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2024-06-18 22:25:39,892 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/forms.py', reloading
+2024-06-18 22:25:40,753 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 22:30:25,317 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:30:25,367 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:30:25,422 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 22:30:25,422 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 22:30:25,440 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 22:30:27,558 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:30:27,559 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:30:27,566 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 22:30:27,641 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 22:30:33,072 - __main__ - ERROR - Erro inesperado: 'form' is undefined
+Traceback (most recent call last):
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py", line 94, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/src/templates/index.html", line 15, in top-level template code
+    {{ form.hidden_tag() }} <div class="ml-auto">
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2024-06-18 22:30:33,092 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:30:33] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2024-06-18 22:43:39,610 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:43:39,617 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:43:39,653 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 22:43:39,653 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 22:43:39,668 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 22:43:41,394 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:43:41,395 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:43:41,405 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 22:43:41,436 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 22:43:48,440 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-18 22:43:48,443 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:43:48] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-18 22:44:14,963 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 22:44:15,495 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 22:44:22,139 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:44:22,141 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:44:22,176 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 22:44:22,219 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 22:44:22,344 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:44:22] "GET /index HTTP/1.1" 200 -
+2024-06-18 22:44:22,586 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:44:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-18 22:44:35,492 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:44:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-18 22:44:35,580 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:44:35] "GET /dashboard HTTP/1.1" 200 -
+2024-06-18 22:44:35,638 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:44:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-18 22:44:35,781 - __main__ - ERROR - Erro 404: Página não encontrada.
+2024-06-18 22:44:35,782 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:44:35] "[33mGET /api/students HTTP/1.1[0m" 404 -
+2024-06-18 22:46:25,039 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 22:46:25,586 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 22:46:29,580 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:46:29,581 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:46:29,596 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 22:46:29,621 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 22:48:02,797 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 22:48:03,506 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 22:48:08,433 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:48:08,434 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:48:08,450 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 22:48:08,486 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 22:49:07,853 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 22:49:08,599 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 22:49:12,744 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:49:12,774 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:49:12,802 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 22:49:12,838 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 22:49:25,490 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 22:49:26,034 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 22:49:31,372 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:49:31,374 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:49:31,393 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 22:49:31,437 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 22:49:32,033 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:49:32] "GET /index HTTP/1.1" 200 -
+2024-06-18 22:49:32,092 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 22:49:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-18 22:51:28,662 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/create_alunos.py', reloading
+2024-06-18 22:51:29,695 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 22:51:33,636 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:51:33,638 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:51:33,652 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 22:51:33,693 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 22:51:54,565 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/create_alunos.py', reloading
+2024-06-18 22:51:55,097 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 22:52:00,292 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 22:52:00,294 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 22:52:00,307 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 22:52:00,341 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 23:07:42,787 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 23:07:42,794 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 23:07:42,837 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 23:07:42,837 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 23:07:42,839 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 23:07:45,589 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 23:07:45,590 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 23:07:45,596 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 23:07:45,632 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 23:13:40,950 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 23:13:40,959 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 23:13:40,981 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 23:13:40,982 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 23:13:40,984 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 23:13:42,453 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 23:13:42,454 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 23:13:42,460 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 23:13:42,484 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 23:14:33,603 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 23:14:33,605 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 23:14:33,625 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 23:14:33,625 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 23:14:33,627 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 23:14:35,252 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 23:14:35,254 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 23:14:35,261 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 23:14:35,279 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 23:17:01,404 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 23:17:01,405 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 23:17:01,424 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 23:17:01,425 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 23:17:01,426 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 23:17:02,903 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 23:17:02,905 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 23:17:02,911 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 23:17:02,948 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 23:21:51,437 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 23:21:52,137 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 23:21:55,806 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 23:21:55,807 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 23:21:55,823 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 23:21:55,842 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 23:21:55,954 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 23:21:55] "GET /index HTTP/1.1" 200 -
+2024-06-18 23:21:56,106 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 23:21:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-18 23:22:04,758 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 23:22:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-18 23:22:04,859 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 23:22:04] "GET /dashboard HTTP/1.1" 200 -
+2024-06-18 23:22:04,923 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 23:22:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-18 23:22:05,126 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 23:22:05] "[35m[1mGET /api/students HTTP/1.1[0m" 500 -
+2024-06-18 23:31:31,939 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 23:31:31,980 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 23:31:32,033 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-18 23:31:32,042 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-18 23:31:32,049 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 23:31:35,081 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 23:31:35,082 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 23:31:35,092 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 23:31:35,116 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-18 23:31:35,216 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 23:31:35] "GET /index HTTP/1.1" 200 -
+2024-06-18 23:31:35,272 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 23:31:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-18 23:31:42,436 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 23:31:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-18 23:31:42,476 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 23:31:42] "GET /dashboard HTTP/1.1" 200 -
+2024-06-18 23:31:42,552 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 23:31:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-18 23:31:42,767 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2024 23:31:42] "[35m[1mGET /api/students HTTP/1.1[0m" 500 -
+2024-06-18 23:32:36,189 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-18 23:32:36,975 - werkzeug - INFO -  * Restarting with stat
+2024-06-18 23:32:41,085 - __main__ - INFO - Usuário admin já existe.
+2024-06-18 23:32:41,166 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-18 23:32:41,192 - werkzeug - WARNING -  * Debugger is active!
+2024-06-18 23:32:41,220 - werkzeug - INFO -  * Debugger PIN: 854-614-718

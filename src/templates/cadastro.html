@@ -1,67 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro e Gestão</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Dashboard - Avaliação de Estudantes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <div class="management-container">
-        <h2>Cadastro e Gestão</h2>
-        <div class="management-tabs">
-            <button data-target="#alunos">Alunos</button>
-            <button data-target="#disciplinas">Disciplinas</button>
-            <button data-target="#habilidades">Habilidades</button>
-            <button data-target="#objetivos">Objetivos</button>
-            <button data-target="#conteudos">Conteúdos</button>
-            <button data-target="#proficiencia">Níveis de Proficiência</button>
-        </div>
-        <div id="managementContent">
-            <div id="alunos" class="management-section active">
-                <h3>Alunos</h3>
-                <form id="formCadastro" aria-label="Formulário de Cadastro de Alunos">
-                    <div class="form-group">
-                        <label for="name">Nome:</label>
-                        <input type="text" id="name" name="name" placeholder="Digite o nome" aria-required="true">
-                    </div>
-                    <div class="form-group">
-                        <label for="age">Idade:</label>
-                        <input type="number" id="age" name="age" placeholder="Digite a idade" aria-required="true">
-                    </div>
-                    <div class="form-group">
-                        <label for="class">Turma:</label>
-                        <input type="text" id="class" name="class" placeholder="Digite a turma" aria-required="true">
-                    </div>
-                    <button type="submit">Cadastrar</button>
-                </form>
-                <div id="studentList">
-                    <h3>Lista de Alunos</h3>
-                    <ul id="students"></ul>
-                </div>
+    <header>
+        <h1>Dashboard de Avaliação</h1>
+        <nav>
+            <button id="add-student-btn">Cadastrar Novo Aluno</button>
+            <button id="edit-student-btn">Editar Aluno</button>
+            <button id="delete-student-btn">Excluir Aluno</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="student-selection">
+            <h2>Escolha um Estudante para Avaliar</h2>
+            <select id="student-list">
+                <!-- Os estudantes serão carregados aqui -->
+            </select>
+        </section>
+
+        <section id="student-details">
+            <h2>Detalhes do Estudante</h2>
+            <div id="student-info">
+                <!-- Informações do estudante selecionado serão exibidas aqui -->
             </div>
-            <div id="disciplinas" class="management-section">
-                <h3>Disciplinas</h3>
-                <!-- CRUD de Disciplinas -->
-            </div>
-            <div id="habilidades" class="management-section">
-                <h3>Habilidades</h3>
-                <!-- CRUD de Habilidades -->
-            </div>
-            <div id="objetivos" class="management-section">
-                <h3>Objetivos</h3>
-                <!-- CRUD de Objetivos -->
-            </div>
-            <div id="conteudos" class="management-section">
-                <h3>Conteúdos</h3>
-                <!-- CRUD de Conteúdos -->
-            </div>
-            <div id="proficiencia" class="management-section">
-                <h3>Níveis de Proficiência</h3>
-                <!-- CRUD de Níveis de Proficiência -->
-            </div>
+        </section>
+    </main>
+
+    <!-- Modal para adicionar/editar estudante -->
+    <div id="student-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title">Adicionar/Editar Estudante</h2>
+            <form id="student-form">
+                <label for="student-name">Nome:</label>
+                <input type="text" id="student-name" name="student-name" required>
+                <label for="student-age">Idade:</label>
+                <input type="number" id="student-age" name="student-age" required>
+                <label for="student-grade">Série:</label>
+                <input type="text" id="student-grade" name="student-grade" required>
+                <button type="submit">Salvar</button>
+            </form>
         </div>
     </div>
-    <script src="scripts.js"></script>
+
+    <!-- Modal para confirmação de exclusão -->
+    <div id="delete-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Confirmar Exclusão</h2>
+            <p>Tem certeza que deseja excluir este estudante?</p>
+            <button id="confirm-delete-btn">Excluir</button>
+            <button id="cancel-delete-btn">Cancelar</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const studentList = document.getElementById('student-list');
+            const studentInfo = document.getElementById('student-info');
+            const addStudentBtn = document.getElementById('add-student-btn');
+            const editStudentBtn = document.getElementById('edit-student-btn');
+            const deleteStudentBtn = document.getElementById('delete-student-btn');
+            const studentModal = document.getElementById('student-modal');
+            const deleteModal = document.getElementById('delete-modal');
+            const closeBtns = document.querySelectorAll('.close-btn');
+            const studentForm = document.getElementById('student-form');
+
+            let students = [];
+
+            // Função para abrir o modal
+            function openModal(modal) {
+                modal.style.display = 'block';
+            }
+
+            // Função para fechar o modal
+            closeBtns.forEach(btn => {
+                btn.onclick = function() {
+                    this.parentElement.parentElement.style.display = 'none';
+                };
+            });
+
+            // Event Listeners para os botões
+            addStudentBtn.onclick = function() {
+                openModal(studentModal);
+                studentForm.dataset.mode = 'add';
+                studentForm.reset();
+            };
+
+            editStudentBtn.onclick = function() {
+                if (studentList.value) {
+                    openModal(studentModal);
+                    studentForm.dataset.mode = 'edit';
+                    const selectedStudent = students.find(s => s.id == studentList.value);
+                    if (selectedStudent) {
+                        document.getElementById('student-name').value = selectedStudent.name;
+                        document.getElementById('student-age').value = selectedStudent.age;
+                        document.getElementById('student-grade').value = selectedStudent.grade;
+                    }
+                } else {
+                    alert('Selecione um estudante para editar.');
+                }
+            };
+
+            deleteStudentBtn.onclick = function() {
+                if (studentList.value) {
+                    openModal(deleteModal);
+                } else {
+                    alert('Selecione um estudante para excluir.');
+                }
+            };
+
+            // Event Listener para o formulário de estudante
+            studentForm.onsubmit = function(event) {
+                event.preventDefault();
+                const mode = studentForm.dataset.mode;
+                const studentData = {
+                    name: document.getElementById('student-name').value,
+                    age: document.getElementById('student-age').value,
+                    grade: document.getElementById('student-grade').value
+                };
+
+                if (mode === 'add') {
+                    fetch('/api/students', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(studentData)
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        loadStudents();
+                        studentModal.style.display = 'none';
+                    })
+                    .catch(error => console.error('Erro:', error));
+                } else if (mode === 'edit') {
+                    fetch(`/api/students/${studentList.value}`, {
+                        method: 'PUT',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(studentData)
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        loadStudents();
+                        studentModal.style.display = 'none';
+                    })
+                    .catch(error => console.error('Erro:', error));
+                }
+            };
+
+            // Event Listener para confirmar exclusão
+            document.getElementById('confirm-delete-btn').onclick = function() {
+                fetch(`/api/students/${studentList.value}`, {
+                    method: 'DELETE'
+                })
+                .then(response => response.json())
+                .then(data => {
+                    loadStudents();
+                    deleteModal.style.display = 'none';
+                })
+                .catch(error => console.error('Erro:', error));
+            };
+
+            // Event Listener para cancelar exclusão
+            document.getElementById('cancel-delete-btn').onclick = function() {
+                deleteModal.style.display = 'none';
+            };
+
+            // Lógica para carregar a lista de estudantes
+            function loadStudents() {
+                fetch('/api/students')
+                .then(response => response.json())
+                .then(data => {
+                    students = data;
+                    studentList.innerHTML = '';
+                    students.forEach(student => {
+                        const option = document.createElement('option');
+                        option.value = student.id;
+                        option.textContent = student.name;
+                        studentList.appendChild(option);
+                    });
+                })
+                .catch(error => console.error('Erro:', error));
+            }
+
+            // Carregar estudantes ao carregar a página
+            loadStudents();
+
+            // Event Listener para exibir detalhes do estudante selecionado
+            studentList.onchange = function() {
+                const selectedStudent = students.find(s => s.id == this.value);
+                if (selectedStudent) {
+                    studentInfo.innerHTML = `
+                        <p>Nome: ${selectedStudent.name}</p>
+                        <p>Idade: ${selectedStudent.age}</p>
+                        <p>Série: ${selectedStudent.grade}</p>
+                    `;
+                }
+            };
+        });
+    </script>
 </body>
 </html>
+s

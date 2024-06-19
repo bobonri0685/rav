@@ -6,4 +6,6 @@ Flask-WTF
 flask-restx
 flask_marshmallow
 marshmallow
+flask_migrate
 psycopg2-binary
+logging
