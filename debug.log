@@ -706,3 +706,18 @@ jinja2.exceptions.UndefinedError: 'form' is undefined
 2024-06-19 10:44:57,978 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2024 10:44:57] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
 2024-06-19 10:44:58,142 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2024 10:44:58] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 2024-06-19 10:44:58,369 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2024 10:44:58] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-19 14:15:20,721 - __main__ - INFO - Usuário admin já existe.
+2024-06-19 14:15:20,723 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-19 14:15:20,761 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-19 14:15:20,761 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-19 14:15:20,763 - werkzeug - INFO -  * Restarting with stat
+2024-06-19 14:15:22,678 - __main__ - INFO - Usuário admin já existe.
+2024-06-19 14:15:22,679 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-19 14:15:22,685 - werkzeug - WARNING -  * Debugger is active!
+2024-06-19 14:15:22,741 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-19 14:15:28,377 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2024 14:15:28] "GET /index HTTP/1.1" 200 -
+2024-06-19 14:15:28,491 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2024 14:15:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-06-19 14:15:29,813 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2024 14:15:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-19 14:15:36,599 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2024 14:15:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-19 14:15:36,636 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2024 14:15:36] "[33mGET /dashboard HTTP/1.1[0m" 404 -
