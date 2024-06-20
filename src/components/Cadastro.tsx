@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import axios, { AxiosError } from 'axios';
+
+// Defina a estrutura esperada do objeto de erro
+interface ErrorResponse {
+  message: string;
+}
 
 const Cadastro: React.FC = () => {
   const [nome, setNome] = useState('');
@@ -20,7 +25,8 @@ const Cadastro: React.FC = () => {
       setSerie('');
     } catch (error) {
       if (axios.isAxiosError(error) && error.response) {
-        setErro(error.response.data.message);
+        const data = error.response.data as ErrorResponse; // Verificação de tipo
+        setErro(data.message);
       } else {
         setErro('Erro ao cadastrar aluno.');
       }

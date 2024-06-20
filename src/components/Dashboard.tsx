@@ -22,7 +22,7 @@ const Dashboard: React.FC = () => {
 
   const loadStudents = async () => {
     try {
-      const response = await axios.get('/api/students');
+      const response = await axios.get('/alunos');
       setStudents(response.data);
     } catch (error) {
       setError('Erro ao carregar estudantes. Por favor, tente novamente mais tarde.');
@@ -59,9 +59,9 @@ const Dashboard: React.FC = () => {
     e.preventDefault();
     try {
       if (showModal === 'add') {
-        await axios.post('/api/students', studentData);
+        await axios.post('/alunos', studentData);
       } else if (showModal === 'edit') {
-        await axios.put(`/api/students/${selectedStudent}`, studentData);
+        await axios.put(`/alunos/${selectedStudent}`, studentData);
       }
       loadStudents();
       handleCloseModal();
@@ -72,7 +72,7 @@ const Dashboard: React.FC = () => {
 
   const handleDelete = async () => {
     try {
-      await axios.delete(`/api/students/${selectedStudent}`);
+      await axios.delete(`/alunos/${selectedStudent}`);
       loadStudents();
       handleCloseModal();
     } catch (error) {

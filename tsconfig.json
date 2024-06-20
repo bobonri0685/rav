@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src" // Adicione esta linha para facilitar a resolução de módulos relativos ao src
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
+}

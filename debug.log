@@ -994,3 +994,94 @@ jinja2.exceptions.TemplateNotFound: index.html
 2024-06-19 21:56:41,413 - werkzeug - INFO -  * Debugger PIN: 854-614-718
 2024-06-19 21:56:44,680 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2024 21:56:44] "[33mGET /index HTTP/1.1[0m" 404 -
 2024-06-19 21:56:47,622 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2024 21:56:47] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-20 14:22:43,623 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 14:22:43,625 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 14:22:43,646 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-20 14:22:43,647 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-20 14:22:43,649 - werkzeug - INFO -  * Restarting with stat
+2024-06-20 14:22:46,199 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 14:22:46,204 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 14:22:46,296 - werkzeug - WARNING -  * Debugger is active!
+2024-06-20 14:22:46,332 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-20 14:22:50,114 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 14:22:50] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-20 14:22:51,080 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 14:22:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-20 14:30:59,157 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-20 14:30:59,438 - werkzeug - INFO -  * Restarting with stat
+2024-06-20 14:31:01,141 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 14:31:01,142 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 14:31:01,162 - werkzeug - WARNING -  * Debugger is active!
+2024-06-20 14:31:01,212 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-20 14:32:37,239 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-20 14:32:37,613 - werkzeug - INFO -  * Restarting with stat
+2024-06-20 14:32:39,630 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 14:32:39,631 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 14:32:39,639 - werkzeug - WARNING -  * Debugger is active!
+2024-06-20 14:32:39,663 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-20 14:34:22,972 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-20 14:34:23,337 - werkzeug - INFO -  * Restarting with stat
+2024-06-20 14:34:25,226 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 14:34:25,227 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 14:34:25,236 - werkzeug - WARNING -  * Debugger is active!
+2024-06-20 14:34:25,270 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-20 14:34:48,741 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-20 14:34:49,049 - werkzeug - INFO -  * Restarting with stat
+2024-06-20 14:34:51,424 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 14:34:51,425 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 14:34:51,434 - werkzeug - WARNING -  * Debugger is active!
+2024-06-20 14:34:51,468 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-20 14:35:25,097 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-20 14:35:25,644 - werkzeug - INFO -  * Restarting with stat
+2024-06-20 14:43:16,751 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 14:43:16,753 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 14:43:16,772 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-20 14:43:16,772 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-20 14:43:16,774 - werkzeug - INFO -  * Restarting with stat
+2024-06-20 14:43:18,352 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 14:43:18,352 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 14:43:18,359 - werkzeug - WARNING -  * Debugger is active!
+2024-06-20 14:43:18,412 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-20 14:43:24,702 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 14:43:24] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-20 14:43:29,522 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 14:43:29] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-20 14:43:34,020 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 14:43:34] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-20 14:43:35,192 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 14:43:35] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-20 14:43:44,047 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-20 14:43:44,464 - werkzeug - INFO -  * Restarting with stat
+2024-06-20 14:43:47,352 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 14:43:47,354 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 14:43:47,367 - werkzeug - WARNING -  * Debugger is active!
+2024-06-20 14:43:47,484 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-20 15:01:41,038 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-20 15:01:41,041 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-20 15:12:51,978 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-20 15:12:51,986 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-20 15:20:37,874 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-20 15:20:37,875 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-20 15:36:31,952 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 15:36:31,956 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 15:36:31,977 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-20 15:36:31,977 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-20 15:36:31,980 - werkzeug - INFO -  * Restarting with stat
+2024-06-20 15:36:33,702 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 15:36:33,703 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 15:36:33,710 - werkzeug - WARNING -  * Debugger is active!
+2024-06-20 15:36:33,760 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-20 15:36:37,981 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 15:36:37] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-20 15:36:39,974 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 15:36:39] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-20 16:47:23,626 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 16:47:23,629 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 16:47:23,661 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-20 16:47:23,662 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-20 16:47:23,670 - werkzeug - INFO -  * Restarting with stat
+2024-06-20 16:47:25,354 - __main__ - INFO - Usuário admin já existe.
+2024-06-20 16:47:25,355 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-20 16:47:25,363 - werkzeug - WARNING -  * Debugger is active!
+2024-06-20 16:47:25,411 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-20 16:47:36,362 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 16:47:36] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-20 16:47:38,338 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 16:47:38] "[33mGET /index HTTP/1.1[0m" 404 -

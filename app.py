@@ -7,6 +7,7 @@ from flask_restx import Api, Resource, fields
 from marshmallow import Schema, fields as ma_fields, validate, ValidationError
 from flask_migrate import Migrate
 from sqlalchemy.exc import IntegrityError
+from flask_cors import CORS
 import os
 import logging
 
@@ -80,17 +81,13 @@ user_model = api.model('User', {
 def load_user(user_id):
     return db.session.get(User, int(user_id))
 
-@app.route('/public/<path:filename>')
-def serve_public(filename):
-    return send_from_directory('public', filename)
-
 # Adicionando rotas para renderizar templates HTML
 @app.route('/')
 def index():
     return send_from_directory('public', 'index.html')
 
-@app.route('/<path:path>')
-def serve_react(path):
+@app.route('/static/<path:path>')  # Rota corrigida
+def serve_static(path):
     return send_from_directory('public', path)
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -113,10 +110,6 @@ def login():
 @login_required
 def Dashboard():
     return send_from_directory('build', 'index.html')
-
-@app.route('/static/<path:filename>')
-def serve_static(filename):
-    return send_from_directory('build/static', filename)
 
 @api.route('/logout')
 class Logout(Resource):
@@ -255,3 +248,5 @@ if __name__ == '__main__':
         create_admin_user()
     logger.info('Iniciando a aplicação Flask.')
     app.run(debug=True)
+
+CORS(app, resources={r"/alunos/*": {"origins": "http://localhost:3000"}})
