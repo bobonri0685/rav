@@ -1,13 +1,12 @@
-from flask import Flask, request, jsonify, render_template, redirect, url_for, send_from_directory
+from flask import Flask, send_from_directory, render_template, redirect, url_for, jsonify  # Importe jsonify
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.exc import IntegrityError
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from flask_bcrypt import Bcrypt
 from flask_wtf.csrf import CSRFProtect, CSRFError
 from flask_restx import Api, Resource, fields
 from marshmallow import Schema, fields as ma_fields, validate, ValidationError
 from flask_migrate import Migrate
-from src.forms import LoginForm
+from sqlalchemy.exc import IntegrityError
 import os
 import logging
 
@@ -16,7 +15,6 @@ from src.logging_config import setup_logging
 setup_logging()
 logger = logging.getLogger(__name__)
 
-# Criação da aplicação Flask
 app = Flask(__name__, template_folder='src/templates', static_folder='src/static')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://diogomendesbatista:onri0685@localhost/relatorio_avaliativo_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -33,7 +31,6 @@ api = Api(app, version='1.0', title='API de Relatório Avaliativo',
           description='Documentação da API de Relatório Avaliativo', doc='/api/docs')
 
 migrate = Migrate(app, db)
-
 
 # Modelos
 class Aluno(db.Model):
@@ -89,36 +86,34 @@ def serve_public(filename):
 
 # Adicionando rotas para renderizar templates HTML
 @app.route('/')
-@app.route('/index')
 def index():
-    form = LoginForm()  # Crie uma instância do formulário
-    return render_template('index.html', form=form)  # Passe o formulário para o template
+    return send_from_directory('public', 'index.html')
 
+@app.route('/<path:path>')
+def serve_react(path):
+    return send_from_directory('public', path)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
-    if form.validate_on_submit():  # Usa validate_on_submit para verificar o token CSRF
+    if form.validate_on_submit():
         username = form.username.data
         password = form.password.data
         user = User.query.filter_by(username=username).first()
         if user and user.verify_password(password):
             login_user(user)
-            return redirect(url_for('dashboard'))
+            return redirect(url_for('Dashboard'))
         else:
             logger.warning(f'Falha no login para o usuário {username}.')
             return render_template('index.html', form=form, error='Credenciais inválidas.')
     else:
         return render_template('index.html', form=form)
 
-
-# Rota do Dashboard (protegida)
-@app.route('/dashboard')
+@app.route('/Dashboard')
 @login_required
-def dashboard():
+def Dashboard():
     return send_from_directory('build', 'index.html')
 
-# Servindo arquivos estáticos do build do React
 @app.route('/static/<path:filename>')
 def serve_static(filename):
     return send_from_directory('build/static', filename)
@@ -235,7 +230,6 @@ def handle_error(error):
         return jsonify({'error': 'Integrity Error'}), 400
     else:
         return jsonify({'error': 'Internal Server Error'}), 500
-
 
 @app.route('/protected')
 @login_required
