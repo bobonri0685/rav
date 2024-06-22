@@ -9,3 +9,4 @@ marshmallow
 flask_migrate
 psycopg2-binary
 logging
+flask_jwt_extended

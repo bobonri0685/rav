@@ -1201,3 +1201,279 @@ jinja2.exceptions.TemplateNotFound: index.html
 2024-06-21 10:06:26,077 - werkzeug - INFO -  * Debugger PIN: 854-614-718
 2024-06-21 10:06:26,450 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 10:06:26] "[33mGET / HTTP/1.1[0m" 404 -
 2024-06-21 10:06:51,905 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 10:06:51] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-22 13:37:24,222 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 13:37:24,224 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 13:37:24,248 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 13:37:24,249 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 13:37:24,251 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 13:37:25,720 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 13:37:25,721 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 13:37:25,728 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 13:37:25,751 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 13:37:37,081 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 13:37:37] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-22 13:44:54,397 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-22 13:44:54,748 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 13:44:57,161 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 13:44:57,163 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 13:44:57,176 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 13:44:57,203 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 14:08:47,430 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 14:08:47,432 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 14:08:47,490 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 14:08:47,490 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 14:08:47,496 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 14:08:49,780 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 14:08:49,783 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 14:08:50,179 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 14:08:50,231 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 14:08:54,752 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 14:08:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-06-22 14:08:54,955 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 14:08:54] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-22 14:08:54,965 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 14:08:54] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-22 14:08:55,074 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 14:08:55] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-22 14:08:56,505 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 14:08:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-22 15:08:51,346 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 15:08:51,348 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 15:08:51,426 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 15:08:51,427 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 15:08:51,429 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 15:08:54,904 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 15:08:54,907 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 15:08:54,919 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 15:08:54,970 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 15:08:59,518 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:08:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-06-22 15:08:59,656 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:08:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-22 15:08:59,661 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:08:59] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-22 15:08:59,909 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:08:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-22 15:11:08,645 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-22 15:11:08,948 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 15:11:11,850 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 15:11:11,852 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 15:11:11,872 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 15:11:11,889 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 15:11:37,320 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:11:37] "GET / HTTP/1.1" 200 -
+2024-06-22 15:11:37,357 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:11:37] "GET /%PUBLIC_URL%/static/css/main.d95bc385.css HTTP/1.1" 200 -
+2024-06-22 15:11:37,363 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:11:37] "GET /%PUBLIC_URL%/static/js/main.1b267887.js HTTP/1.1" 200 -
+2024-06-22 15:11:37,615 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:11:37] "GET /favicon.ico HTTP/1.1" 200 -
+2024-06-22 15:11:40,839 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:11:40] "[36mGET / HTTP/1.1[0m" 304 -
+2024-06-22 15:11:40,870 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:11:40] "[36mGET /%PUBLIC_URL%/static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 15:11:40,874 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:11:40] "[36mGET /%PUBLIC_URL%/static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 15:11:41,046 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:11:41] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-06-22 15:13:59,421 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:13:59] "GET / HTTP/1.1" 200 -
+2024-06-22 15:13:59,459 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:13:59] "GET /static/css/main.d95bc385.css HTTP/1.1" 200 -
+2024-06-22 15:13:59,467 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:13:59] "GET /static/js/main.1b267887.js HTTP/1.1" 200 -
+2024-06-22 15:13:59,736 - __main__ - ERROR - Erro inesperado: Could not build url for endpoint 'index'. Did you mean 'doc' instead?
+Traceback (most recent call last):
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_restx/api.py", line 669, in error_router
+    return self.handle_error(e)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_login/login_manager.py", line 196, in unauthorized
+    redirect_url = make_login_url(login_view, next_url=request.url)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_login/utils.py", line 120, in login_url
+    base = expand_login_view(login_view)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_login/utils.py", line 97, in expand_login_view
+    return url_for(login_view)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/helpers.py", line 220, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/werkzeug/routing/map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'index'. Did you mean 'doc' instead?
+2024-06-22 15:13:59,770 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:13:59] "[35m[1mGET /alunos HTTP/1.1[0m" 500 -
+2024-06-22 15:13:59,892 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:13:59] "GET /favicon.ico HTTP/1.1" 200 -
+2024-06-22 15:14:50,637 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:14:50] "[36mGET / HTTP/1.1[0m" 304 -
+2024-06-22 15:14:50,687 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:14:50] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 15:14:50,692 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:14:50] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 15:14:50,820 - __main__ - ERROR - Erro inesperado: Could not build url for endpoint 'index'. Did you mean 'doc' instead?
+Traceback (most recent call last):
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_restx/api.py", line 669, in error_router
+    return self.handle_error(e)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_login/login_manager.py", line 196, in unauthorized
+    redirect_url = make_login_url(login_view, next_url=request.url)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_login/utils.py", line 120, in login_url
+    base = expand_login_view(login_view)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_login/utils.py", line 97, in expand_login_view
+    return url_for(login_view)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/helpers.py", line 220, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/werkzeug/routing/map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'index'. Did you mean 'doc' instead?
+2024-06-22 15:14:50,842 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:14:50] "[35m[1mGET /alunos HTTP/1.1[0m" 500 -
+2024-06-22 15:14:50,973 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:14:50] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-06-22 15:15:37,807 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 15:15:37,808 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 15:15:37,839 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 15:15:37,839 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 15:15:37,845 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 15:15:39,302 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 15:15:39,304 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 15:15:39,311 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 15:15:39,325 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 15:16:45,050 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 15:16:45,053 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 15:16:45,072 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 15:16:45,073 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 15:16:45,074 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 15:16:46,654 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 15:16:46,656 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 15:16:46,663 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 15:16:46,678 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 15:17:22,619 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:17:22] "GET / HTTP/1.1" 200 -
+2024-06-22 15:17:22,650 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:17:22] "GET /static/css/main.d95bc385.css HTTP/1.1" 200 -
+2024-06-22 15:17:22,651 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:17:22] "GET /static/js/main.1b267887.js HTTP/1.1" 200 -
+2024-06-22 15:17:23,046 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:17:23] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 200 -
+2024-06-22 15:17:23,052 - __main__ - ERROR - Erro inesperado: Could not build url for endpoint 'index'. Did you mean 'doc' instead?
+Traceback (most recent call last):
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_restx/api.py", line 669, in error_router
+    return self.handle_error(e)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_restx/api.py", line 402, in wrapper
+    resp = resource(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_restx/resource.py", line 41, in dispatch_request
+    resp = meth(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_login/login_manager.py", line 196, in unauthorized
+    redirect_url = make_login_url(login_view, next_url=request.url)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_login/utils.py", line 120, in login_url
+    base = expand_login_view(login_view)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask_login/utils.py", line 97, in expand_login_view
+    return url_for(login_view)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/helpers.py", line 220, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/flask/app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/venv/lib/python3.12/site-packages/werkzeug/routing/map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'index'. Did you mean 'doc' instead?
+2024-06-22 15:17:23,056 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:17:23] "GET /apple-touch-icon.png HTTP/1.1" 200 -
+2024-06-22 15:17:23,099 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 15:17:23] "[35m[1mGET /alunos HTTP/1.1[0m" 500 -
+2024-06-22 19:37:49,254 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 19:37:49,298 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 19:37:49,602 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 19:37:49,602 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 19:37:49,644 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 19:38:02,894 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 19:38:02,908 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 19:38:03,054 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 19:38:03,074 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 19:38:03,366 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:38:03] "[36mGET / HTTP/1.1[0m" 304 -
+2024-06-22 19:38:03,392 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:38:03] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 19:38:03,469 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:38:03] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 19:38:03,549 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:38:03] "[31m[1mGET /alunos HTTP/1.1[0m" 401 -
+2024-06-22 19:38:07,564 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:38:07] "[36mGET / HTTP/1.1[0m" 304 -
+2024-06-22 19:38:07,609 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:38:07] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 19:38:07,613 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:38:07] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 19:38:07,723 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:38:07] "[31m[1mGET /alunos HTTP/1.1[0m" 401 -
+2024-06-22 19:38:30,841 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:38:30] "[36mGET / HTTP/1.1[0m" 304 -
+2024-06-22 19:38:30,879 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:38:30] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 19:38:30,884 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:38:30] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 19:38:30,953 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 19:38:30] "[31m[1mGET /alunos HTTP/1.1[0m" 401 -
+2024-06-22 20:00:44,986 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 20:00:44,993 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 20:00:45,090 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 20:00:45,091 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 20:00:45,112 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 20:00:48,376 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 20:00:48,526 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 20:00:48,553 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 20:00:48,595 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 20:00:53,345 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:00:53] "GET / HTTP/1.1" 200 -
+2024-06-22 20:00:53,393 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:00:53] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 20:00:53,396 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:00:53] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 20:00:53,479 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:00:53] "[31m[1mGET /alunos HTTP/1.1[0m" 401 -
+2024-06-22 20:00:54,912 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:00:54] "GET / HTTP/1.1" 200 -
+2024-06-22 20:00:54,940 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:00:54] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 20:00:54,949 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:00:54] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 20:00:55,025 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:00:55] "[31m[1mGET /alunos HTTP/1.1[0m" 401 -
+2024-06-22 20:02:35,140 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-22 20:02:35,798 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 20:02:40,027 - __main__ - INFO - Usuário admin já existe.
+2024-06-22 20:02:40,031 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 20:02:40,064 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 20:02:40,129 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 20:04:58,284 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-22 20:04:58,906 - werkzeug - INFO -  * Restarting with stat
