@@ -1,4 +1,4 @@
-from flask import Flask, send_from_directory, render_template, redirect, url_for, jsonify  # Importe jsonify
+from flask import Flask, send_from_directory, render_template, redirect, url_for, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from flask_bcrypt import Bcrypt
@@ -16,7 +16,7 @@ from src.logging_config import setup_logging
 setup_logging()
 logger = logging.getLogger(__name__)
 
-app = Flask(__name__, template_folder='src/templates', static_folder='src/static')
+app = Flask(__name__, template_folder='src/templates', static_folder='build/static')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://diogomendesbatista:onri0685@localhost/relatorio_avaliativo_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'sua_chave_secreta_padrao')
@@ -84,32 +84,24 @@ def load_user(user_id):
 # Adicionando rotas para renderizar templates HTML
 @app.route('/')
 def index():
-    return send_from_directory('public', 'index.html')
-
-@app.route('/static/<path:path>')  # Rota corrigida
-def serve_static(path):
-    return send_from_directory('public', path)
-
-@app.route('/login', methods=['GET', 'POST'])
-def login():
-    form = LoginForm()
-    if form.validate_on_submit():
-        username = form.username.data
-        password = form.password.data
-        user = User.query.filter_by(username=username).first()
-        if user and user.verify_password(password):
-            login_user(user)
-            return redirect(url_for('Dashboard'))
-        else:
-            logger.warning(f'Falha no login para o usuário {username}.')
-            return render_template('index.html', form=form, error='Credenciais inválidas.')
-    else:
-        return render_template('index.html', form=form)
-
-@app.route('/Dashboard')
-@login_required
-def Dashboard():
     return send_from_directory('build', 'index.html')
+
+@app.route('/static/<path:path>')
+def serve_static(path):
+    return send_from_directory('build/static', path) 
+
+@app.route('/login', methods=['POST'])
+def login():
+    data = request.json
+    username = data.get('username')
+    password = data.get('password')
+    user = User.query.filter_by(username=username).first()
+    if user and user.verify_password(password):
+        login_user(user)
+        return jsonify({'success': True})
+    else:
+        logger.warning(f'Falha no login para o usuário {username}.')
+        return jsonify({'success': False, 'error': 'Credenciais inválidas.'}), 401
 
 @api.route('/logout')
 class Logout(Resource):

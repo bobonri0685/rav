@@ -1101,3 +1101,103 @@ jinja2.exceptions.TemplateNotFound: index.html
 2024-06-20 17:00:59,023 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 17:00:59] "[33mGET /?next=/alunos HTTP/1.1[0m" 404 -
 2024-06-20 17:01:07,576 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 17:01:07] "[32mGET /alunos HTTP/1.1[0m" 302 -
 2024-06-20 17:01:07,588 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2024 17:01:07] "[33mGET /?next=/alunos HTTP/1.1[0m" 404 -
+2024-06-21 09:15:59,723 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 09:15:59,725 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 09:15:59,751 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-21 09:15:59,752 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-21 09:15:59,754 - werkzeug - INFO -  * Restarting with stat
+2024-06-21 09:16:01,787 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 09:16:01,788 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 09:16:01,799 - werkzeug - WARNING -  * Debugger is active!
+2024-06-21 09:16:01,846 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-21 09:16:14,964 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:16:14] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-21 09:16:16,774 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:16:16] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-21 09:16:17,923 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:16:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-21 09:17:24,300 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:17:24] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 09:17:24,657 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:17:24] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 09:20:02,928 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-21 09:20:03,217 - werkzeug - INFO -  * Restarting with stat
+2024-06-21 09:20:05,661 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 09:20:05,662 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 09:20:05,673 - werkzeug - WARNING -  * Debugger is active!
+2024-06-21 09:20:05,726 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-21 09:22:19,906 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 09:22:19,907 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 09:22:19,927 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-21 09:22:19,927 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-21 09:22:19,929 - werkzeug - INFO -  * Restarting with stat
+2024-06-21 09:22:21,429 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 09:22:21,430 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 09:22:21,436 - werkzeug - WARNING -  * Debugger is active!
+2024-06-21 09:22:21,469 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-21 09:22:43,337 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:22:43] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 09:22:45,338 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:22:45] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 09:28:52,488 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 09:28:52,490 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 09:28:52,532 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-21 09:28:52,532 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-21 09:28:52,533 - werkzeug - INFO -  * Restarting with stat
+2024-06-21 09:28:53,881 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 09:28:53,882 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 09:28:53,887 - werkzeug - WARNING -  * Debugger is active!
+2024-06-21 09:28:53,916 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-21 09:29:17,791 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:29:17] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 09:29:20,520 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:29:20] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 09:29:25,633 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:29:25] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-21 09:29:27,345 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:29:27] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-21 09:33:08,512 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:33:08] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 09:33:09,568 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:33:09] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 09:47:34,981 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 09:47:34,983 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 09:47:34,998 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-21 09:47:34,999 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-21 09:47:35,000 - werkzeug - INFO -  * Restarting with stat
+2024-06-21 09:47:36,340 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 09:47:36,341 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 09:47:36,346 - werkzeug - WARNING -  * Debugger is active!
+2024-06-21 09:47:36,367 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-21 09:47:43,950 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:47:43] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 09:47:46,152 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:47:46] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 09:57:57,736 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 09:57:57,737 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 09:57:57,758 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-21 09:57:57,758 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-21 09:57:57,761 - werkzeug - INFO -  * Restarting with stat
+2024-06-21 09:57:59,080 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 09:57:59,081 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 09:57:59,086 - werkzeug - WARNING -  * Debugger is active!
+2024-06-21 09:57:59,110 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-21 09:59:49,718 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:59:49] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 09:59:56,645 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:59:56] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-21 09:59:57,732 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 09:59:57] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-06-21 10:00:01,864 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 10:00:01] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 10:00:02,543 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 10:00:02] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 10:01:58,117 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 10:01:58,120 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 10:01:58,137 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-21 10:01:58,137 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-21 10:01:58,140 - werkzeug - INFO -  * Restarting with stat
+2024-06-21 10:01:59,448 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 10:01:59,452 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 10:01:59,461 - werkzeug - WARNING -  * Debugger is active!
+2024-06-21 10:01:59,487 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-21 10:02:07,919 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 10:02:07] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 10:02:10,296 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 10:02:10] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 10:06:23,604 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 10:06:23,615 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 10:06:23,667 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-21 10:06:23,668 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-21 10:06:23,670 - werkzeug - INFO -  * Restarting with stat
+2024-06-21 10:06:26,018 - __main__ - INFO - Usuário admin já existe.
+2024-06-21 10:06:26,019 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-21 10:06:26,026 - werkzeug - WARNING -  * Debugger is active!
+2024-06-21 10:06:26,077 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-21 10:06:26,450 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 10:06:26] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-21 10:06:51,905 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 10:06:51] "[33mGET / HTTP/1.1[0m" 404 -
