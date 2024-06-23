@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; // use o useNavigate
 
 const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
-    const history = useHistory();
+    const [errorMessage, setErrorMessage] = useState(''); // Estado para a mensagem de erro
+    const navigate = useNavigate();
 
     const handleLogin = async (e) => {
         e.preventDefault();
@@ -16,9 +17,9 @@ const Login = () => {
         try {
             const response = await axios.post('/api/login', { username, password });
             localStorage.setItem('token', response.data.token);
-            history.push('/dashboard');
+            navigate('/dashboard'); // Redireciona com navigate
         } catch (error) {
-            setError('Usuário ou senha inválidos. Por favor, tente novamente.');
+            // ... (tratamento de erros)
         } finally {
             setLoading(false);
         }

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './static/styles.css'; 
-import Dashboard from './components/Dashboard'; // Sem a extensão .tsx
+import Dashboard from '../../components/Dashboard'; // Sem a extensão .tsx
 
 const rootElement = document.getElementById('root');
 if (rootElement) {

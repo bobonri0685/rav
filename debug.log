@@ -1477,3 +1477,186 @@ werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'index'
 2024-06-22 20:02:40,129 - werkzeug - INFO -  * Debugger PIN: 854-614-718
 2024-06-22 20:04:58,284 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
 2024-06-22 20:04:58,906 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 20:51:17,518 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 20:51:17,566 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 20:51:17,567 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 20:51:17,569 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 20:51:19,262 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 20:51:19,268 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 20:51:19,347 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 20:51:26,916 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:26] "GET / HTTP/1.1" 200 -
+2024-06-22 20:51:26,965 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:26] "GET /static/script.js HTTP/1.1" 200 -
+2024-06-22 20:51:26,987 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:26] "GET /static/css/main.d95bc385.css HTTP/1.1" 200 -
+2024-06-22 20:51:27,064 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:27] "GET /static/js/main.1b267887.js HTTP/1.1" 200 -
+2024-06-22 20:51:27,375 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:27] "GET /alunos HTTP/1.1" 200 -
+2024-06-22 20:51:41,069 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:41] "[36mGET / HTTP/1.1[0m" 304 -
+2024-06-22 20:51:41,080 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:41] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 20:51:41,091 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:41] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 20:51:41,115 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 20:51:41,267 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:41] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 20:51:52,744 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:52] "[36mGET / HTTP/1.1[0m" 304 -
+2024-06-22 20:51:52,796 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:52] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 20:51:52,804 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 20:51:52,812 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:52] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 20:51:52,885 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:51:52] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 20:52:01,693 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-22 20:52:02,250 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 20:52:05,851 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 20:52:05,871 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 20:52:05,921 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 20:56:41,748 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 20:56:41,779 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 20:56:41,779 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 20:56:41,783 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 20:56:43,551 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 20:56:43,560 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 20:56:43,589 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 20:56:48,450 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:56:48] "[36mGET / HTTP/1.1[0m" 304 -
+2024-06-22 20:56:48,500 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:56:48] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 20:56:48,507 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:56:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 20:56:48,519 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:56:48] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 20:56:48,694 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:56:48] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 20:56:52,343 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:56:52] "[36mGET / HTTP/1.1[0m" 304 -
+2024-06-22 20:56:52,400 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:56:52] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 20:56:52,414 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:56:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 20:56:52,420 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:56:52] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 20:56:52,549 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 20:56:52] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:03:05,527 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-22 21:03:06,641 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 21:03:29,674 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 21:03:29,702 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 21:03:29,705 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 21:03:29,708 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 21:03:32,810 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 21:03:32,838 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 21:03:32,884 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 21:03:35,262 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:03:35] "GET / HTTP/1.1" 200 -
+2024-06-22 21:03:35,317 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:03:35] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:03:35,323 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:03:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:03:35,328 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:03:35] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:03:35,459 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:03:35] "GET /alunos HTTP/1.1" 200 -
+2024-06-22 21:03:37,222 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:03:37] "GET / HTTP/1.1" 200 -
+2024-06-22 21:03:37,275 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:03:37] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:03:37,280 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:03:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:03:37,287 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:03:37] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:03:37,396 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:03:37] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:09:47,360 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 21:09:47,392 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 21:09:47,393 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 21:09:47,395 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 21:09:50,346 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 21:09:50,362 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 21:09:50,437 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 21:09:51,619 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:51] "GET / HTTP/1.1" 200 -
+2024-06-22 21:09:51,698 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:51] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:09:51,703 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:51] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:09:51,706 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:09:51,844 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:51] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:09:52,858 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:52] "GET / HTTP/1.1" 200 -
+2024-06-22 21:09:52,893 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:09:52,900 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:52] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:09:52,903 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:52] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:09:52,993 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:52] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:09:53,678 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:53] "GET / HTTP/1.1" 200 -
+2024-06-22 21:09:53,704 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:53] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:09:53,708 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:09:53,714 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:53] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:09:53,860 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:53] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:09:54,465 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:54] "GET / HTTP/1.1" 200 -
+2024-06-22 21:09:54,514 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:09:54,520 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:54] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:09:54,533 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:54] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:09:54,596 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:54] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:09:55,206 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:55] "GET / HTTP/1.1" 200 -
+2024-06-22 21:09:55,257 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:55] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:09:55,257 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:55] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:09:55,259 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:09:55,376 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:55] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:09:56,455 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:56] "GET / HTTP/1.1" 200 -
+2024-06-22 21:09:56,514 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:56] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:09:56,540 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:09:56,544 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:56] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:09:56,656 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:09:56] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:12:11,386 - werkzeug - INFO -  * Detected change in '/Users/diogomendesbatista/Library/Mobile Documents/com~apple~CloudDocs/Documents/VS CODE/RAv/app.py', reloading
+2024-06-22 21:12:12,222 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 21:12:16,393 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 21:12:16,408 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 21:12:16,491 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 21:13:08,388 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 21:13:08,408 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 21:13:08,411 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 21:13:08,414 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 21:13:10,202 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 21:13:10,208 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 21:13:10,240 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 21:13:13,213 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:13] "GET / HTTP/1.1" 200 -
+2024-06-22 21:13:13,278 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:13] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:13:13,285 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:13] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:13:13,286 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:13:13,372 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:13] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:13:14,265 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:14] "GET / HTTP/1.1" 200 -
+2024-06-22 21:13:14,296 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:14] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:13:14,303 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:13:14,309 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:14] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:13:14,381 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:14] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:13:15,302 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:15] "GET / HTTP/1.1" 200 -
+2024-06-22 21:13:15,341 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:13:15,351 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:15] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:13:15,356 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:15] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:13:15,464 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:15] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:13:16,113 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:16] "GET / HTTP/1.1" 200 -
+2024-06-22 21:13:16,148 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:16] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:13:16,155 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:13:16,160 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:16] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:13:16,271 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:16] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:13:24,802 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:24] "[36mGET / HTTP/1.1[0m" 304 -
+2024-06-22 21:13:24,843 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:24] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:13:24,850 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:13:24,857 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:24] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:13:24,899 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:24] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:13:38,151 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:38] "GET / HTTP/1.1" 200 -
+2024-06-22 21:13:38,243 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:38] "GET /static/script.js HTTP/1.1" 200 -
+2024-06-22 21:13:38,269 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:38] "GET /static/css/main.d95bc385.css HTTP/1.1" 200 -
+2024-06-22 21:13:38,269 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:38] "GET /static/js/main.1b267887.js HTTP/1.1" 200 -
+2024-06-22 21:13:39,702 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:39] "GET /alunos HTTP/1.1" 200 -
+2024-06-22 21:13:39,951 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:39] "GET /favicon.ico HTTP/1.1" 200 -
+2024-06-22 21:13:41,973 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:41] "[36mGET / HTTP/1.1[0m" 304 -
+2024-06-22 21:13:42,007 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:42] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:13:42,014 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:13:42,023 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:42] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:13:42,149 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:42] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:13:42,270 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:13:42] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-06-22 21:14:03,876 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:14:03] "GET / HTTP/1.1" 200 -
+2024-06-22 21:14:04,134 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:14:04] "GET /static/css/main.d95bc385.css HTTP/1.1" 200 -
+2024-06-22 21:14:04,139 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:14:04] "GET /static/script.js HTTP/1.1" 200 -
+2024-06-22 21:14:04,143 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:14:04] "GET /static/js/main.1b267887.js HTTP/1.1" 200 -
+2024-06-22 21:14:04,571 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:14:04] "GET /alunos HTTP/1.1" 200 -
+2024-06-22 21:14:04,594 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:14:04] "GET /favicon.ico HTTP/1.1" 200 -
+2024-06-22 21:31:00,533 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 21:31:00,562 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-22 21:31:00,563 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-22 21:31:00,569 - werkzeug - INFO -  * Restarting with stat
+2024-06-22 21:31:03,282 - __main__ - INFO - Iniciando a aplicação Flask.
+2024-06-22 21:31:03,296 - werkzeug - WARNING -  * Debugger is active!
+2024-06-22 21:31:03,340 - werkzeug - INFO -  * Debugger PIN: 854-614-718
+2024-06-22 21:31:32,443 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:31:32] "GET / HTTP/1.1" 200 -
+2024-06-22 21:31:32,599 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:31:32] "GET /static/css/main.d95bc385.css HTTP/1.1" 200 -
+2024-06-22 21:31:32,609 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:31:32] "GET /static/script.js HTTP/1.1" 200 -
+2024-06-22 21:31:32,616 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:31:32] "GET /static/js/main.1b267887.js HTTP/1.1" 200 -
+2024-06-22 21:31:32,991 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:31:32] "GET /alunos HTTP/1.1" 200 -
+2024-06-22 21:31:36,356 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:31:36] "GET /favicon.ico HTTP/1.1" 200 -
+2024-06-22 21:34:14,921 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:34:14] "[36mGET / HTTP/1.1[0m" 304 -
+2024-06-22 21:34:15,952 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:34:15] "[36mGET /static/js/main.1b267887.js HTTP/1.1[0m" 304 -
+2024-06-22 21:34:16,094 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:34:16] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:34:16,097 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:34:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-06-22 21:34:18,567 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:34:18] "[36mGET /alunos HTTP/1.1[0m" 304 -
+2024-06-22 21:34:19,120 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:34:19] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-06-22 21:34:45,086 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:34:45] "[36mGET /static/css/main.d95bc385.css HTTP/1.1[0m" 304 -
+2024-06-22 21:34:45,981 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:34:45] "GET /static/js/main.1b267887.js.map HTTP/1.1" 200 -
+2024-06-22 21:34:46,125 - werkzeug - INFO - 127.0.0.1 - - [22/Jun/2024 21:34:46] "GET /static/css/main.d95bc385.css.map HTTP/1.1" 200 -
